@@ -1,7 +1,19 @@
 import React from 'react';
-import './App.css';
+import jokeData from '../helpers/data/jokeData';
 
 class App extends React.Component {
+  state = {
+    jokes: [],
+  };
+
+  componentDidMount() {
+    jokeData.getJokeObject().then((resp) => {
+      this.setState({
+        jokes: resp,
+      });
+    });
+  }
+
   render() {
     return (
       <div className="App">
