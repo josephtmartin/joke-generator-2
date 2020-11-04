@@ -1,6 +1,6 @@
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body {
-  background-color: gray;
+  background-color: #4f4f4f;
 }

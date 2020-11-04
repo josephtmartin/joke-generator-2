@@ -1,24 +1,12 @@
 import React from 'react';
-import jokeData from '../helpers/data/jokeData';
+import Setup from '../components/Setup';
 
 class App extends React.Component {
-  state = {
-    jokes: [],
-  };
-
-  componentDidMount() {
-    jokeData.getJokeObject().then((resp) => {
-      this.setState({
-        jokes: resp,
-      });
-    });
-  }
-
   render() {
     return (
       <div className="App">
-        <h2>INSIDE APP COMPONENT</h2>
-        <button className="btn btn-info">I am a button</button>
+        <img src="https://user-images.githubusercontent.com/29741570/98047811-372e3b80-1df2-11eb-9bb6-3e8845e92d9e.png" alt="logo"/>
+        <Setup />
       </div>
     );
   }
