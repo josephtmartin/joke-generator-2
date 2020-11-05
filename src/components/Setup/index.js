@@ -17,7 +17,7 @@ export default class Setup extends Component {
 
   render() {
     const { joke } = this.state;
-    const renderJokeToDom = () => <Joke key={joke.id} joke={joke} />;
+    const renderJokeToDom = () => <div className="joke-container"><Joke key={joke.id} joke={joke} /></div>;
 
     return (
       <>
