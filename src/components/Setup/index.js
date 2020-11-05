@@ -24,7 +24,7 @@ export default class Setup extends Component {
         <button id='giveMeAJoke' className='btn btn-primary btn-lg' onClick={this.getJoke}>
           Get a Joke
         </button>
-        {this.state.joke.id ? <div>{renderJokeToDom()}</div> : <></>};
+        {this.state.joke.id ? <div>{renderJokeToDom()}</div> : <></>}
       </>
     );
   }
