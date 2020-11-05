@@ -11,7 +11,7 @@ This was built after learning React components and props. This was a challenge f
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4c9e500e-094e-4c99-8cc4-3b28e4643c19/deploy-status)](https://app.netlify.com/sites/reactjokegenerator/deploys)
 
 ## Demo
-
+![Demo Gif](demo/joke-generator-2.0.gif)
 
 ## Code Snippet
 ```
