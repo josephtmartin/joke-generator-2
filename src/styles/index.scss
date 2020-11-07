@@ -17,6 +17,7 @@
 //  
 .logo {
   width: 100%;
+  height: 800px;
 }
 body {
   background-color:#4F4F4F;
@@ -30,6 +31,9 @@ body {
   margin: 50px;
   .card-body {
     background-color: #989898;
+  }
+  .joke-type {
+    font-size: 40px;
   }
 }
 #punchlineDiv{

@@ -17,6 +17,7 @@ export default class Joke extends Component {
     return (
       <div className='card'>
         <div className='card-body'>
+          <h2 className='joke-type'>Joke Type: {joke.type}</h2>
           <p className='card-text'>{joke.setup}</p>
           <button
             href='#'
